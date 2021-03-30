@@ -1,34 +1,36 @@
+//generating the product list on the DOM with this function
+
 export function makePaintingLi(painting) {
     const li = document.createElement('li');
-    
+    //adds a class to the li tag
     li.classList.add('painting');
-
+    //fills out the name 
     const pName = document.createElement('p');
     pName.classList.add('name');
     pName.textContent = painting.name;
-
+    //fills out the artist
     const pArtist = document.createElement('p');
     pArtist.classList.add('artist');
     pArtist.textContent = painting.artist;
-
+    //fills out the image
     const image = document.createElement('img');
     image.classList.add('image');
     image.src = painting.image;
-
+    //fills out the "detail"/medium
     const pDetail = document.createElement('p');
     pDetail.classList.add('detail');
     pDetail.textContent = painting.detail;
-
+    //fills out the price (need to ask about that alternate syntax)
     const pPrice = document.createElement('p');
     pPrice.classList.add('price');
     pPrice.textContent = `$${painting.price}`;
-
+    //button
     const cartButton = document.createElement('button');
     cartButton.classList.add('button');
     cartButton.textContent = 'Add to Cart';
-
-    li.append(pName, pArtist, image, pDetail, pPrice, button);
-
+    //nest these all within the li
+    li.append(pName, pArtist, image, pDetail, pPrice, cartButton);
+    //return (for a pure function)
     return li;
 
     
