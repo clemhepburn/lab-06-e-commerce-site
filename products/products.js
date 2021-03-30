@@ -1,3 +1,7 @@
+//make the objects for each painting
+//const painting =
+// name, artist, image, detail, price, id (for button)
+
 export const painting = [
     {
         name: 'Apple Tree Through the Barn Window, September',
