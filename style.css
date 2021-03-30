@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Courier, 'Courier New', monospace;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+a {
+    color: black
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+a:hover {
+    color:cornflowerblue;
+}

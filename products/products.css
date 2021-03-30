@@ -1,0 +1,55 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+.artist {
+    font-style: italic;
+}
+p {
+    margin: 5px;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    list-style: inside;
+    gap: 10px;
+
+}
+
+img {
+    width: 300px;
+    margin-bottom: 10px;
+    
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+    
+    box-sizing: border-box;
+}
+
+button {
+    background-color: white;
+    border: 1px black solid;
+    font-family: 'Times New Roman';
+    margin-top: 5px;
+}
