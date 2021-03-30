@@ -1,44 +1,51 @@
-export const paintings = [
+export const painting = [
     {
         name: 'Apple Tree Through the Barn Window, September',
-        category: 'Lois Dodd',
+        artist: 'Lois Dodd',
         image: '../assets/dodd.jpeg',
         detail: 'oil on masonite',
-        price: 10000
+        price: 10000,
+        id: '1'
     },
     {
         name: 'Bathers',
-        category: 'Paul Cézanne',
+        artist: 'Paul Cézanne',
         image: '../assets/bathers.jpeg',
         detail: 'oil on canvas',
-        price: 1000000
+        price: 1000000,
+        id: '2'
     },
     {
         name: 'Bike Rider',
-        category: 'Katherine Bradford',
+        artist: 'Katherine Bradford',
         image: '../assets/bikerider.jpeg',
         detail: 'acrylic on canvas',
-        price: 10000
+        price: 10000,
+        id: '3'
     },
     {
         name: 'Foxgloves',
-        category: 'Nikolai Astrup',
+        artist: 'Nikolai Astrup',
         image: '../assets/foxgloves.jpeg',
         detail: 'woodcut/oil on paper',
-        price: 50000
+        price: 50000,
+        id: '4'
+
     },
     {
         name: 'Open Window, Collioure',
-        category: 'Henri Matisse',
+        artist: 'Henri Matisse',
         image: '../assets/matisse.jpeg',
         detail: 'oil on canvas',
-        price: 5000000
+        price: 5000000,
+        id: '5'
     },
     {
         name: 'Unique Mind/Soul Within Infinity',
-        category: 'Chris Johanson',
+        artist: 'Chris Johanson',
         image: '../assets/uniquemindsoulwithininfinity.jpeg',
         detail: 'acrylic and household paint on canvas',
-        price: 60000
+        price: 60000,
+        id: '6'
     },
 ];
