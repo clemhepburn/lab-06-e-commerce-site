@@ -84,10 +84,11 @@ footer button {
     margin: 20px;
     height: 32px;
     font-size: 24px;
+    
     background-color: white;
     border: none;
     outline: none;
-    border-radius: 5px;
+    
 }
 
 button:active {
