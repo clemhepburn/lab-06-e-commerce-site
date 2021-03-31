@@ -36,8 +36,10 @@ export function makePaintingLi(painting) {
     
 }
 
-//name
-//artist
-//Image
-//Detail 
-//price
+export function findById(whateverArray, whateverId) {
+    for (let item of whateverArray) {
+        if (item.id === whateverId) {
+            return item;
+        }
+    }
+}
