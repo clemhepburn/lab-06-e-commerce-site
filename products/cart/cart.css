@@ -1,0 +1,95 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    padding-left: 50px;
+    padding-top: 40px;
+    font-size: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 90%
+}
+
+
+header p, a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 10px 0 10px;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    flex: 1 0 auto;
+
+}
+
+header a {
+    font-style: italic;
+}
+
+table {
+    width: 60%;
+    border: solid 1px black;
+}
+
+td {
+    border: solid 1px black;
+    text-align: center;
+}
+
+.title {
+    font-style: italic;
+}
+
+.blank {
+    border: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    display: flex;
+    border: 2px black solid;
+    width: 100%;
+    flex-shrink: 0;
+    justify-content:flex-end;
+    align-items: center;
+    height: 70px;
+    
+}
+
+footer button {
+    margin: 20px;
+    height: 32px;
+    font-size: 24px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+button:active {
+    background-color: thistle;
+}
