@@ -43,3 +43,8 @@ export function findById(whateverArray, whateverId) {
         }
     }
 }
+
+export const calcItemTotal = (price, quantity) => {
+    const total = Math.round( price * quantity * 100 ) / 100;
+    return total.toFixed(2);
+};
