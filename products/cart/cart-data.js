@@ -15,4 +15,12 @@ export const cartArray = [
         id: '4',
         quantity: 2
     },
+    {
+        id: '5',
+        quantity: 2
+    },
+    {
+        id: '6',
+        quantity: 2
+    },
 ];
