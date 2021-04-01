@@ -94,3 +94,10 @@ footer button {
 button:active {
     background-color: thistle;
 }
+
+.random {
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 48px;
+    font-style: italic;
+}
