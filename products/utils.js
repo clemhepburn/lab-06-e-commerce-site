@@ -46,5 +46,7 @@ export function findById(whateverArray, whateverId) {
 
 export const calcItemTotal = (price, quantity) => {
     const total = Math.round( price * quantity * 100 ) / 100;
+    //toFixed method converts a number to string, rounding to (number of decimals)
     return total.toFixed(2);
 };
+
